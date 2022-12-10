@@ -25,9 +25,7 @@
 }
 
 .title-portifolio {
-  background: linear-gradient(to right, white 50%, white 0);
-  -webkit-background-clip: text;
- -webkit-text-fill-color: transparent; 
+  color: aliceblue; 
 }
 
 .container-links {
