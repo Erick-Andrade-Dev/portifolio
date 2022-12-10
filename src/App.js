@@ -20,14 +20,14 @@ function App() {
         </nav>
         <nav className="container-links">
           <Link className="link" to="/portifolio">Principal</Link>
-          <Link className="link" to="/portifolio/sobre">Sobre</Link>
-          <Link className="link" to="/portifolio/projetos">Projetos</Link>
+          <Link className="link" to="/sobre">Sobre</Link>
+          <Link className="link" to="/projetos">Projetos</Link>
         </nav>
       </div>     
       <Switch>  
         <Route exact path="/portifolio" component={ Home }/>
-        <Route path="/portifolio/sobre" component={ About }/>
-        <Route path="/portifolio" component={ Projects }/>
+        <Route path="/sobre" component={ About }/>
+        <Route path="/" component={ Projects }/>
       </Switch> 
     </div>
   );
