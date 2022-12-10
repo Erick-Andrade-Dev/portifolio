@@ -12,6 +12,7 @@ function App() {
         <nav>
           <img 
             className="logo"
+            alt="logotipo"
             src="https://static.vecteezy.com/ti/fotos-gratis/p2/1325904-natureza-pequena-cachoeira-com-pedra-foto.jpg"></img>
         </nav>
         <nav>
