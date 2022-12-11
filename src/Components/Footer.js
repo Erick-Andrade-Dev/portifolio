@@ -8,10 +8,10 @@ import { SiGmail } from "react-icons/si";
 export default function Footer() {
   return(
     <footer className="footer">          
-      <a target="_blank" href="https://github.com/Erick-Andrade-Dev?tab=repositories">
+      <a target="_blank" href="https://github.com/Erick-Andrade-Dev?tab=repositories" rel="noreferrer">
         <DiGithubBadge size={52} color="white"/>
       </a>
-      <a target="_blank" href="https://www.linkedin.com/in/erick-andrade-76a960241/">
+      <a target="_blank" href="https://www.linkedin.com/in/erick-andrade-76a960241/" rel="noreferrer">
         <FaLinkedin size={42} color="white" style={{borderRadius:"50%"}}/>
       </a>   
       <a target="_blank" href="#">
