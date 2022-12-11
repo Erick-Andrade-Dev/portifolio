@@ -1,0 +1,16 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.footer {
+  height:10vh;
+  background-image: linear-gradient(darkblue, darkcyan);
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  padding: 5px;
+}
+
