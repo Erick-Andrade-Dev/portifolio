@@ -11,7 +11,7 @@
 
 .navegator {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   height: 10vh;
   background-image: linear-gradient(darkblue, darkcyan);
@@ -44,10 +44,16 @@
 .link {
   text-decoration: none;
   color: white;
-  border: 3px double white;
+  border-bottom: 3px double white;
   padding: 0.2em;
   font-weight: 600;
   cursor: pointer;
+  opacity: 0.9;
+}
+
+.link:hover {
+  opacity: 1;
+  font-weight: bolder;
 }
 
 .image-main {
