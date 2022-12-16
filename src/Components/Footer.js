@@ -13,10 +13,7 @@ export default function Footer() {
       </a>
       <a target="_blank" href="https://www.linkedin.com/in/erick-andrade-76a960241/" rel="noreferrer">
         <FaLinkedin size={42} color="white" style={{borderRadius:"50%"}}/>
-      </a>   
-      <a target="_blank" href="https://gmail.google.com/mail/u/0/" rel="noreferrer">
-        <SiGmail size={42} color="white"/> 
-      </a>         
+      </a>           
     </footer>
   )
 }

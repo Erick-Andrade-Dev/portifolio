@@ -6,11 +6,12 @@
 
 .container-main-imgs {
   display: flex;
-  flex-flow: row wrap;    
+  flex-flow: row wrap;   
+  background-color: lightblue; 
 }
 
 .container-imgs {
-  margin-top: 1em;
+  margin-top: 1.5em;
   margin-bottom: 1em;
   display: flex;
   flex-flow: row wrap;   

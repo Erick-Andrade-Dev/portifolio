@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Footer from './Components/Footer';
 import './App.css';
+import NotFound from './Pages/NotFound';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route exact path="/" component={ Home }/>
         <Route path="/sobre" component={ About }/>
         <Route path="/projetos" component={ Projects }/>
+        <Route path="*" component={ NotFound }/>
       </Switch> 
       <Footer />
     </div>
