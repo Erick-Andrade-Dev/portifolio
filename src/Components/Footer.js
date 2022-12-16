@@ -3,7 +3,6 @@ import React from "react";
 import "../Css/Footer.css"
 import { DiGithubBadge } from "react-icons/di";
 import { FaLinkedin } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
 
 export default function Footer() {
   return(
