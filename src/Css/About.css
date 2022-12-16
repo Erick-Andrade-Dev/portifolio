@@ -7,7 +7,7 @@
 .container-about {
   display: flex;
   flex-flow: column wrap;
-  background-color: lightblue;
+  background-image:linear-gradient(blue, red); 
 }
 
 .container-img {
@@ -18,7 +18,7 @@
 }
 
 .my-photo {
-  border: 2px solid black;
+  border: 3px solid blue;
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -34,21 +34,24 @@
 
 .title-tecnologias {    
   text-align: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid blue;
+  color: white;
 }
 
 .title-about {    
   text-align: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid blue;
+  color: white;
 }
 
 .text-about {
   margin: 0.5em;
-  
+  color: white;
 }
 
 .my-email {
   font-weight: 600;
+  color:white;
 }
 
 .tools {

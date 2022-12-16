@@ -17,7 +17,7 @@ export default function About () {
         />
       </main>
       <section className="section-about">
-        <h2 style={{textAlign: 'center'}}>Olá! Eu sou o Erick, tenho 21 anos, sou do Rio de Janeiro e amo programar! </h2>
+        <h2 style={{textAlign: 'center',  color: 'white'}}>Olá! Eu sou o Erick, tenho 21 anos, sou do Rio de Janeiro e amo programar! </h2>
         <br/>      
         <div className="about">          
           <h3 className="title-about">Sobre mim</h3>         
@@ -27,30 +27,30 @@ export default function About () {
           <h3 className="title-tecnologias">Habilidades</h3>
           <div className="img-tools">
             <div>
-              <p style={{textAlign: 'center'}}> <AiFillHtml5 size="50px"/></p>
-              <p style={{textAlign: 'center'}}>HTML5</p>
+              <p style={{textAlign: 'center',  color: 'white'}}> <AiFillHtml5 size="50px"/></p>
+              <p style={{textAlign: 'center',  color: 'darkblue'}}>HTML5</p>
             </div>
             <div>
-              <p style={{textAlign: 'center'}}> <IoLogoCss3 size="50px"/></p>
-              <p style={{textAlign: 'center'}}>CSS3</p>
+              <p style={{textAlign: 'center',  color: 'white'}}> <IoLogoCss3 size="50px"/></p>
+              <p style={{textAlign: 'center',  color: 'darkblue'}}>CSS3</p>
             </div>
             <div>
-              <p style={{textAlign: 'center'}}> <SiJavascript size="50px"/> </p>
-              <p style={{textAlign: 'center'}}>JavaScript</p>
+              <p style={{textAlign: 'center',  color: 'white'}}> <SiJavascript size="50px"/> </p>
+              <p style={{textAlign: 'center',  color: 'darkblue'}}>JavaScript</p>
             </div>
             <div>
-              <p style={{textAlign: 'center'}}> <FaReact size="50px"/> </p>
-              <p style={{textAlign: 'center'}}>ReactJS</p>
+              <p style={{textAlign: 'center',  color: 'white'}}> <FaReact size="50px"/> </p>
+              <p style={{textAlign: 'center',  color: 'darkblue'}}>ReactJS</p>
             </div>
             <div>
-              <p style={{textAlign: 'center'}}> <SiTestinglibrary size="50px"/> </p>
-              <p style={{textAlign: 'center'}}>React Testing</p>
+              <p style={{textAlign: 'center',  color: 'white'}}> <SiTestinglibrary size="50px"/> </p>
+              <p style={{textAlign: 'center',  color: 'darkblue'}}>React Testing</p>
             </div>
           </div>           
         </div>  
       </section>
       <footer className="footer-about">
-        <p> <HiOutlineMail size="18px" style={{marginTop: '5px'}}/></p>
+        <p> <HiOutlineMail size="18px" style={{marginTop: '5px', color: 'white'}}/></p>
         <p className="my-email"> Email para contato: erick.dev07@gmail.com</p>
       </footer>
     </div>

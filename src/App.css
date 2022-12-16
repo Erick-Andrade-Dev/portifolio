@@ -32,10 +32,6 @@
   border: 2px double white;
 }
 
-.title-portifolio {
-  color: aliceblue; 
-}
-
 .container-links {
   display: flex;
   gap: 15px;   

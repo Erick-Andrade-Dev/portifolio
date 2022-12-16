@@ -17,8 +17,7 @@ function App() {
             alt="logotipo"
             src="https://static.vecteezy.com/ti/vetor-gratis/p3/7901432-eba-letter-logo-design-on-black-background-eba-creative-initials-letter-logo-concept-eba-letter-design-vetor.jpg"></img>
         </nav>
-        <nav className="navegator-title">
-          <h2 className="title-portifolio">Meu portifólio</h2>
+        <nav className="navegator-title">          
         </nav>
         <nav className="container-links">
           <Link className="link" to="/">Principal</Link>

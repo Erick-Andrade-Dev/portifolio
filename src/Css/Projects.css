@@ -7,7 +7,7 @@
 .container-main-imgs {
   display: flex;
   flex-flow: row wrap;   
-  background-color: lightblue; 
+  background-image:linear-gradient(blue, red); 
 }
 
 .container-imgs {
@@ -20,7 +20,7 @@
 }
 
 .project {
-  border: 3px double rgb(2, 53, 53);
+  border: 3px double white;
   padding: 2px;
 }
 
@@ -33,7 +33,7 @@
 
 .btn-code {
   border: none;
-  border: 3px double darkblue;
+  border: 3px solid white;
   border-radius: 10px;
   margin: 0.5em;
   cursor: pointer;
@@ -43,14 +43,15 @@
 }
 
 .title-project{
+  color: white;
   font-weight: 700;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   margin-bottom: 0.3em;
 }
 
 .see-code {
   text-decoration: none;
-  border: 2px solid black;
+  border: 2px solid white;
   padding: 3.5px;
   border-radius: 10px;
   color: white;
