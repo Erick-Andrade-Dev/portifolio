@@ -9,7 +9,7 @@ export default function Header() {
       <img 
         className="logo"
         alt="logotipo"
-        src="https://png.pngtree.com/thumb_back/fh260/background/20191219/pngtree-black-and-green-clouds-background-image_325311.jpg"></img>
+        src="https://img.freepik.com/fotos-premium/o-codigo-verde-fez-a-programacao-de-fundo-escuro_250994-1553.jpg"></img>
     </nav>      
     <nav className="container-links">
       <Link className="link" to="/">Sobre</Link>      

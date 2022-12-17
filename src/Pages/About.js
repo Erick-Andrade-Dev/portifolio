@@ -12,14 +12,17 @@ export default function About () {
           src="https://avatars.githubusercontent.com/u/107261788?v=4"
           alt="foto do Erick Andrade"
         />
-      </main>
+      </main>      
       <section className="section-about">
-        <h2 style={{textAlign: 'center',  color: 'black'}}>Olá! Eu sou o Erick, tenho 21 anos, sou do Rio de Janeiro e amo programar! </h2>
-        <br/>      
+        <h2 style={{textAlign: 'center',  color: 'black', fontStyle: 'italic'}}>Olá! Eu sou o Erick, tenho 21 anos, sou do Rio de Janeiro e amo programar! </h2>
+        <br/>     
+        <br/> 
         <div className="about">          
           <h3 className="title-about">Sobre mim</h3>         
           <p className="text-about">Desenvolvedor Front-end, apaixonado pela programação e desenvolvimento. Venho em constante evolução, desenvolvendo exercícios e projetos referentes aos aprendizados que obtenho. Atualmente estou cursando <strong>JavaScript MasterClass na AgileCode</strong> e <strong>JavaScript Full-Stack na OneBitCode</strong>, buscando sempre aprender novas tecnologias e me aprimorar profissonalmente. </p>
         </div>      
+        <br/>
+        <br/>
         <div className="tools">
           <h3 className="title-tecnologias">Habilidades</h3>
           <div className="img-tools">
