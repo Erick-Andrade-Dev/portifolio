@@ -10,10 +10,10 @@ export default function Footer() {
         <a target="_blank" href="https://www.linkedin.com/in/erick-andrade-76a960241/" rel="noreferrer">
           <AiFillLinkedin size={45} color="white" />
         </a>  
-        <a target="_blank" href="https://www.facebook.com/" rel="noreferrer">
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100088485683344" rel="noreferrer">
           <AiFillFacebook size={45} color="white" />
         </a> 
-        <a target="_blank" href="https://www.instagram.com/" rel="noreferrer">
+        <a target="_blank" href="https://www.instagram.com/erick_devbr/" rel="noreferrer">
           <AiFillInstagram size={45} color="white" />
         </a>    
         <a target="_blank" href="https://github.com/erickbrdev?tab=repositories" rel="noreferrer">
