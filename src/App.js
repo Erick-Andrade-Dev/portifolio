@@ -1,33 +1,18 @@
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom'
-import Home from './Pages/Home';
+import { Switch, Route } from 'react-router-dom'
 import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Footer from './Components/Footer';
 import './App.css';
 import NotFound from './Pages/NotFound';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="container-main">
-      <div className="navegator">
-        <nav className="navegator-logo">
-          <img 
-            className="logo"
-            alt="logotipo"
-            src="https://static.vecteezy.com/ti/vetor-gratis/p3/7901432-eba-letter-logo-design-on-black-background-eba-creative-initials-letter-logo-concept-eba-letter-design-vetor.jpg"></img>
-        </nav>
-        <nav className="navegator-title">          
-        </nav>
-        <nav className="container-links">
-          <Link className="link" to="/">Principal</Link>
-          <Link className="link" to="/sobre">Sobre</Link>
-          <Link className="link" to="/projetos">Projetos</Link>
-        </nav>
-      </div>     
-      <Switch>  
-        <Route exact path="/" component={ Home }/>
-        <Route path="/sobre" component={ About }/>
+    <div className="container-main">    
+      <Header /> 
+      <Switch>          
+        <Route exact path="/" component={ About }/>
         <Route path="/projetos" component={ Projects }/>
         <Route path="*" component={ NotFound }/>
       </Switch> 

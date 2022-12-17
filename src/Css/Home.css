@@ -7,11 +7,10 @@
 .main-hero {
   width: 100%;
   height: 45vh;
-  background-image: url('https://media.istockphoto.com/id/1300107681/pt/foto/surface-of-the-atlantic-ocean.jpg?s=612x612&w=0&k=20&c=GkAZ9qXfcPl71aw8AImvQw_eI3x34fJ0ILN7gM4lW8o=');
-  background-size: cover;
+  background-color: cadetblue;
 }
 
 .section {
   height: 45vh;
-  background-image: linear-gradient(wheat, salmon );
+  background-color: blue;
 }

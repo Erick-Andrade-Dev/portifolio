@@ -6,11 +6,21 @@
 
 .footer {
   height:10vh;
-  background-image: linear-gradient(darkblue, darkcyan);
+  background-image: linear-gradient(black, lime);
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 50px;
   align-items: center;
   padding: 5px;
 }
 
+.container-contacts {
+  display: flex;
+  gap: 20px;
+}
+
+.copyright {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}

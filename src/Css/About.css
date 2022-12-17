@@ -7,7 +7,7 @@
 .container-about {
   display: flex;
   flex-flow: column wrap;
-  background-image:linear-gradient(blue, red); 
+  background-color: white;
 }
 
 .container-img {
@@ -18,7 +18,7 @@
 }
 
 .my-photo {
-  border: 3px solid blue;
+  border: 3px solid rgba(0, 0, 0, 0.7);  
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -34,24 +34,27 @@
 
 .title-tecnologias {    
   text-align: center;
-  border-bottom: 2px solid blue;
-  color: white;
+  border-bottom:3px solid rgba(0, 0, 0, 0.7);
+  color: black;
 }
 
 .title-about {    
   text-align: center;
-  border-bottom: 2px solid blue;
-  color: white;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+  color: black;
 }
 
 .text-about {
   margin: 0.5em;
-  color: white;
+  color: black;
 }
 
 .my-email {
   font-weight: 600;
-  color:white;
+  color:black;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .tools {

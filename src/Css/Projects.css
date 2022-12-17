@@ -6,8 +6,8 @@
 
 .container-main-imgs {
   display: flex;
-  flex-flow: row wrap;   
-  background-image:linear-gradient(blue, red); 
+  flex-flow: row wrap;     
+  background: white;
 }
 
 .container-imgs {
@@ -20,7 +20,7 @@
 }
 
 .project {
-  border: 3px double white;
+  border: 3px solid rgba(0, 0, 0, 0.7);
   padding: 2px;
 }
 
@@ -33,7 +33,7 @@
 
 .btn-code {
   border: none;
-  border: 3px solid white;
+  border: 3px solid black;
   border-radius: 10px;
   margin: 0.5em;
   cursor: pointer;
@@ -43,19 +43,19 @@
 }
 
 .title-project{
-  color: white;
+  color: black;
   font-weight: 700;
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.7);
   margin-bottom: 0.3em;
+  font-size: 22px;
 }
 
-.see-code {
-  text-decoration: none;
-  border: 2px solid white;
-  padding: 3.5px;
-  border-radius: 10px;
-  color: white;
+.see-code { 
+  text-decoration: none;  
+  padding: 5px;
+  border-radius: 5px;
+  color: lime;
   font-weight: 600;
   margin-top: 0.2em;
-  background-image: linear-gradient(darkcyan, blue);
+  background: black;
 }
