@@ -1,10 +1,7 @@
 import React from "react";
 import "../Css/About.css"
 import { HiOutlineMail } from "react-icons/hi";
-import { AiFillHtml5 } from "react-icons/ai"
-import { SiJavascript, SiTestinglibrary } from "react-icons/si"
-import { IoLogoCss3 } from "react-icons/io"
-import { FaReact } from "react-icons/fa"
+import { SiJavascript, SiTestinglibrary, SiHtml5, SiCss3, SiReact } from "react-icons/si"
 
 export default function About () {
   return (
@@ -27,24 +24,24 @@ export default function About () {
           <h3 className="title-tecnologias">Habilidades</h3>
           <div className="img-tools">
             <div>
-              <p style={{textAlign: 'center',  color: 'black'}}> <AiFillHtml5 size="50px"/></p>
-              <p style={{textAlign: 'center',  color: 'black'}}>HTML5</p>
+              <p className="hability-img"> <SiHtml5 size="50px"/></p>
+              <p className="hability-img">HTML5</p>
             </div>
             <div>
-              <p style={{textAlign: 'center',  color: 'black'}}> <IoLogoCss3 size="50px"/></p>
-              <p style={{textAlign: 'center',  color: 'black'}}>CSS3</p>
+              <p className="hability-img"> <SiCss3 size="50px"/></p>
+              <p className="hability-img">CSS3</p>
             </div>
             <div>
-              <p style={{textAlign: 'center',  color: 'black'}}> <SiJavascript size="50px"/> </p>
-              <p style={{textAlign: 'center',  color: 'black'}}>JavaScript</p>
+              <p className="hability-img"> <SiJavascript size="50px"/> </p>
+              <p className="hability-img">JavaScript</p>
             </div>
             <div>
-              <p style={{textAlign: 'center',  color: 'black'}}> <FaReact size="50px"/> </p>
-              <p style={{textAlign: 'center',  color: 'black'}}>ReactJS</p>
+              <p className="hability-img"> <SiReact size="50px"/> </p>
+              <p className="hability-img">ReactJS</p>
             </div>
             <div>
-              <p style={{textAlign: 'center',  color: 'black'}}> <SiTestinglibrary size="50px"/> </p>
-              <p style={{textAlign: 'center',  color: 'black'}}>React Testing</p>
+              <p className="hability-img"> <SiTestinglibrary size="50px"/> </p>
+              <p className="hability-img">React Testing</p>
             </div>
           </div>           
         </div>  

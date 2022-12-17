@@ -78,3 +78,12 @@
   justify-content: center;
   align-items: center;
 }
+
+.hability-img {
+  text-align: center;
+  color: black;  
+}
+
+.hability-img:hover {
+  color: lime;
+}
