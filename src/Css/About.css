@@ -100,3 +100,75 @@
 .hability-img:hover {
   color: lime;
 }
+
+@media (max-width: 900px) {
+  .container-about {   
+    display: flex;
+    flex-flow: column wrap;  
+  }
+
+  .container-img {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .my-photo {    
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .section-about {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+
+  h2 {
+    font-size: 15px;
+    width: 35%;
+    text-align: center;
+  }
+  
+  .about {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .title-about {
+    font-size: 20px;    
+  }
+
+  .text-about {
+    font-size: 15px;
+    width: 35%;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .tools {
+    display: flex;
+    flex-flow:  column wrap;
+  }
+
+  .title-tecnologias {
+    font-size: 20px;    
+  }
+
+  .img-tools {
+    display: flex;
+    flex-flow: column wrap;  
+  }
+
+  .footer-about {
+    display: flex;
+    font-size: 10px;
+  }
+
+  .my-email {
+    font-size: 12px;
+    font-weight: 900;
+  }
+}

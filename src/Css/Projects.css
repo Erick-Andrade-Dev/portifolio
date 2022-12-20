@@ -54,3 +54,15 @@
   margin-top: 0.2em;
   background: black;
 }
+
+@media (max-width: 900px) {
+  .container-imgs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .redirect {
+  
+  }
+}

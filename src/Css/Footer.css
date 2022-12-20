@@ -24,3 +24,18 @@
   font-weight: 600;
   font-size: 20px;
 }
+
+@media (max-width: 900px) {
+  .footer {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    gap: 5px;
+  }
+  .container-contacts {
+    display: flex;   
+  }
+  .copyright {
+    font-size: 13px;
+  }
+}
