@@ -5,7 +5,7 @@ export default function Projects() {
 
   return (    
     <div className=" flex flex-col gap-6 mb-6 w-full justify-center items-center">
-      <h3 className="text-2xl font-semibold text-emerald-500 mx-10 mb-6">Projetos</h3>  
+      <h3 className="text-2xl font-semibold text-emerald-500">Projetos</h3>  
       <div>        
         <p className="text-white hover:text-emerald-500 font-semibold">Aplicativo de Receitas</p>
         <ReactPlayer url="https://www.youtube.com/watch?v=8PC6xeToeRs"/>                

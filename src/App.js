@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="flex w-full bg-slate-800">    
       <nav 
-        className="flex flex-col text-center bg-slate-900 w-1/6 items-center border-r-2 border-l-2 border-emerald-500">
+        className="flex flex-col text-center bg-slate-900 w-1/4 items-center border-r-2 border-l-2 border-emerald-500">
         <Header/>       
       </nav>       
       <div className="flex flex-col w-screen text-center bg-slate-800 w-full" >         

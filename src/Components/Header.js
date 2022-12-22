@@ -7,7 +7,7 @@ export default function Header() {
     <div className="fixed flex flex-col h-screen place-content-between">
       <nav className="flex flex-col">
         <img  
-          className="border-solid border-4 border-slate-800 rounded-full w-9/12 mx-auto my-1"        
+          className="border-solid border-4 border-slate-800 rounded-full w-4/6 mx-auto my-1"        
           src="https://avatars.githubusercontent.com/u/107261788?v=4"
           alt="foto do Erick Andrade"
         />
@@ -22,7 +22,7 @@ export default function Header() {
           <p>Inicio</p>
         </Link>
         <Link to="#" className="text-lg text-white hover:text-emerald-500">
-          <p>Sobre</p>
+          <p>Sobre mim</p>
         </Link>
         <Link to="#" className="text-lg text-white hover:text-emerald-500">
           <p>Linguagens</p>
