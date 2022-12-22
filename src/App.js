@@ -1,22 +1,24 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom'
 import About from './Pages/About';
-import Projects from './Pages/Projects';
 import Footer from './Components/Footer';
-import './App.css';
-import NotFound from './Pages/NotFound';
 import Header from './Components/Header';
+import './App.css';
+import Projects from './Pages/Projects';
 
 function App() {
   return (
-    <div className="container-main">    
-      <Header /> 
-      <Switch>          
-        <Route exact path="/" component={ About }/>
-        <Route path="/projetos" component={ Projects }/>
-        <Route path="*" component={ NotFound }/>
-      </Switch> 
-      <Footer />
+    <div className="flex w-full bg-slate-800">    
+      <nav 
+        className="flex flex-col text-center bg-slate-900 w-1/6 items-center border-r-2 border-l-2 border-emerald-500">
+        <Header/>       
+      </nav>       
+      <div className="flex flex-col w-screen text-center bg-slate-800 w-full" >         
+        <section className='bg-slate-800 flex flex-col items-center w-full '>
+          <About />  
+          <Projects />                    
+          <Footer />
+        </section>    
+      </div> 
     </div>
   );
 }
