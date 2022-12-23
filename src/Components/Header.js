@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"
 import {AiFillInstagram, AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Header() {
@@ -18,18 +17,18 @@ export default function Header() {
         </h2> 
       </nav>
       <nav className="flex flex-col gap-4 mobile-nav">
-        <a href="#/" className="text-lg text-white hover:text-emerald-500">
+        <a href="#main" className="text-lg text-white hover:text-emerald-500">
           <p>Início</p>
         </a>
-        <Link to="#About" className="text-lg text-white hover:text-emerald-500 none-mobile">
+        <a href="#about" className="text-lg text-white hover:text-emerald-500 none-mobile">
           <p>Sobre mim</p>
-        </Link>
-        <Link to="#About" className="text-lg text-white hover:text-emerald-500 none-mobile">
+        </a>
+        <a href="#tools" className="text-lg text-white hover:text-emerald-500 none-mobile">
           <p>Linguagens</p>
-        </Link>
-        <Link to="#Projects" className="text-lg text-white hover:text-emerald-500">
+        </a>
+        <a href="#projects" className="text-lg text-white hover:text-emerald-500">
           <p>Projetos</p>
-        </Link>
+        </a>
       </nav>            
       <nav className="flex justify-center gap-3 mb-5 mobile-contact">
         <a 

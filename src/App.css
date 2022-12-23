@@ -2,6 +2,24 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#projects:target {
+  color: black; 
+  
+}
+
+#main:target {
+  color: black; 
+}
+
+#tools:target {
+  color: black; 
+}
+
+#about:target {
+  color: black; 
 }
 
 @media (max-width: 750px) {
