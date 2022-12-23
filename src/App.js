@@ -7,9 +7,9 @@ import Projects from './Pages/Projects';
 
 function App() {
   return (
-    <div className="flex w-full bg-slate-800">    
+    <div className="flex w-full bg-slate-800 main">    
       <nav 
-        className="flex flex-col text-center bg-slate-900 w-1/4 items-center border-r-2 border-l-2 border-emerald-500">
+        className="flex flex-col text-center bg-slate-900 w-1/4 items-center border-r-2 border-l-2 border-emerald-500 sm:flex-col nav-bar">
         <Header/>       
       </nav>       
       <div className="flex flex-col w-screen text-center bg-slate-800 w-full" >         
