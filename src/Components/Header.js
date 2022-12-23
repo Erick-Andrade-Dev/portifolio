@@ -19,7 +19,7 @@ export default function Header() {
       </nav>
       <nav className="flex flex-col gap-4 mobile-nav">
         <a href="#/" className="text-lg text-white hover:text-emerald-500">
-          <p>Inicio</p>
+          <p>Início</p>
         </a>
         <Link to="#About" className="text-lg text-white hover:text-emerald-500 none-mobile">
           <p>Sobre mim</p>

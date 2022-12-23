@@ -83,7 +83,11 @@
   .player {
     display: none;
   }
-  
+
+  .video-mobile {
+    width: 450;
+    height: 300;
+  }
 }
 
 @media (min-width: 500px) {
