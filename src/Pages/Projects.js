@@ -11,7 +11,7 @@ export default function Projects() {
         <ReactPlayer url="https://www.youtube.com/watch?v=8PC6xeToeRs"/>                
         <a target="_blank" href="https://github.com/erickbrdev/theMeal-theCocktail/tree/main/recipes/src" rel="noreferrer">
           <button 
-            className="text-white mt-1 font-semibold bg-emerald-500 rounded p-1.5"
+            className="text-white mt-1 font-semibold bg-emerald-500 rounded p-1.5 hover:bg-black"
           >
             Ver código
           </button>
