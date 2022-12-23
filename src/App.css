@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 810px) {
+@media (max-width: 750px) {
   .main {
     display: flex;
     flex-direction: column;
@@ -78,25 +78,7 @@
   }
 }
 
-@media (max-width: 500px) {
 
-  .player {
-    display: none;
-  }
-
-  .video-mobile {
-    width: 450;
-    height: 300;
-  }
-}
-
-@media (min-width: 500px) {
-
-  .mobile-btn-hidden {
-    display: none;
-  }
-  
-}
 
 
 
