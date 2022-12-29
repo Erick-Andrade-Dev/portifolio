@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.2c5e5443.css",
-    "main.js": "/portifolio/static/js/main.8af29eb8.js",
+    "main.css": "/portifolio/static/css/main.63d9709c.css",
+    "main.js": "/portifolio/static/js/main.1075b75a.js",
     "static/js/787.53b2a456.chunk.js": "/portifolio/static/js/787.53b2a456.chunk.js",
+    "static/media/appReceita.mkv": "/portifolio/static/media/appReceita.3b5b27e391b79f1de63d.mkv",
     "static/media/projetoeba.mp4": "/portifolio/static/media/projetoeba.7f19652c413099fda43e.mp4",
+    "static/media/rickAPI.mkv": "/portifolio/static/media/rickAPI.7a1127241152d9365a3b.mkv",
+    "static/media/previsaotempo.mkv": "/portifolio/static/media/previsaotempo.86bf6b1ede87f18c6da4.mkv",
+    "static/media/consultacep.mkv": "/portifolio/static/media/consultacep.30b47a4d6f3e34447af6.mkv",
     "index.html": "/portifolio/index.html",
-    "main.2c5e5443.css.map": "/portifolio/static/css/main.2c5e5443.css.map",
-    "main.8af29eb8.js.map": "/portifolio/static/js/main.8af29eb8.js.map",
+    "main.63d9709c.css.map": "/portifolio/static/css/main.63d9709c.css.map",
+    "main.1075b75a.js.map": "/portifolio/static/js/main.1075b75a.js.map",
     "787.53b2a456.chunk.js.map": "/portifolio/static/js/787.53b2a456.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c5e5443.css",
-    "static/js/main.8af29eb8.js"
+    "static/css/main.63d9709c.css",
+    "static/js/main.1075b75a.js"
   ]
 }
