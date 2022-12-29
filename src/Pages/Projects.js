@@ -41,7 +41,7 @@ export default function Projects() {
           <summary className="text-emerald-500">Detalhes do projeto</summary>
           <p className="text-white  font-semibold">Ferramenta utilizada: ReactJS</p>
           <br/>
-          <p className="text-white  font-semibold">Aprendizado: Components, Props, React Hooks, localStorage e requisição para API</p>
+          <p className="text-white  font-semibold">Aprendizado: Componentes, Props, React Hooks, localStorage e requisição para API</p>
           <br/>
           <p className="text-white  font-semibold">
             Projeto: Criação de um sistema que tem como objetivo a consulta de cep, ao digitar um cep válido no campo de pesquisa(input) e clicar no botão de consulta, fará uma requisição a uma api externa e retornará os dados do cep digitado caso exista, caso não exista exibirá uma mensagem de erro.
@@ -89,7 +89,7 @@ export default function Projects() {
           <summary className="text-emerald-500">Detalhes do projeto</summary>
           <p className="text-white  font-semibold">Ferramenta utilizada: ReactJS</p>
           <br/>
-          <p className="text-white font-semibold">Aprendizado: Rotas, ContextAPI, React Hooks e requisição para API</p>
+          <p className="text-white font-semibold">Aprendizado: Criação de rotas, ContextAPI, React Hooks e requisição para API</p>
           <br/>
           <p className="text-white  font-semibold">
             Projeto: Armazena os dados da API dentro de um useState, através desse estado faz um filtro da pesquisa do usuário 
@@ -113,10 +113,10 @@ export default function Projects() {
           <summary className="text-emerald-500">Detalhes do projeto</summary>
           <p className="text-white font-semibold">Ferramenta utilizada: ReactJS</p>
           <br/>
-          <p className="text-white font-semibold">Aprendizado: Rotas e Formulário</p>
+          <p className="text-white font-semibold">Aprendizado: Criação de rotas e Formulário</p>
           <br/>
           <p className="text-white font-semibold">
-            Projeto: Criação de uma página com diferentes rotas, como tela de login, cadastro e contato e armazenar os dados digitalizados pelo usuário dentro de um estado.
+            Projeto: Criação de uma página com diferentes rotas, como tela de login, cadastro e contato. E através da interação do usuário armazenar os dados digitalizados dentro de um estado.
           </p>
       </details>       
         <video width="700px" height="500px" controls>
