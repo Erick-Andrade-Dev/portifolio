@@ -63,12 +63,12 @@ export default function Projects() {
         <p className="text-white hover:text-emerald-500 font-bold">Previsão do Tempo</p>
         <details>
           <summary className="text-emerald-500">Detalhes do projeto</summary>
-          <p className="text-white font-semibold">Ferramenta utilizada: HTML, CSS e JavaScript</p>
+          <p className="text-white font-semibold">Ferramentas utilizadas: HTML, CSS e JavaScript</p>
           <br/>
           <p className="text-white  font-semibold">Aprendizado: Requisição para API externa</p>
           <br/>
           <p className="text-white  font-semibold">
-            Projeto: Criação de um sistema que tem como objetivo mostrar em tempo real a temperatura do lugar desejado, ao digitar o lugar na barra de pesquisa(input) e clicar no icone de pesquisa ou apertar a tecla "enter", fez uma requisição para uma API externa e retorna o resultado obtido.
+            Projeto: Criação de um sistema que tem como objetivo mostrar em tempo real a temperatura do lugar desejado, ao digitar o lugar na barra de pesquisa(input) e clicar no icone de pesquisa ou apertar a tecla "enter", faz uma requisição para uma API externa e retorna a resposta obtida.
           </p>
       </details>
         <video width="700px" height="500px" controls>
