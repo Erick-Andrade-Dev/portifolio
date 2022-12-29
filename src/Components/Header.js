@@ -17,7 +17,7 @@ export default function Header() {
         </h2> 
       </nav>
       <nav className="flex flex-col gap-4 mobile-nav">
-        <a href="#main" className="text-lg text-white hover:text-emerald-500">
+        <a href="#main" className="text-lg text-white hover:text-emerald-500  none-mobile">
           <p>Início</p>
         </a>
         <a href="#about" className="text-lg text-white hover:text-emerald-500 none-mobile">
@@ -27,7 +27,7 @@ export default function Header() {
           <p>Linguagens</p>
         </a>
         <a href="#projects" className="text-lg text-white hover:text-emerald-500">
-          <p>Projetos</p>
+          <p className="project-mobile">Projetos</p>
         </a>
       </nav>            
       <nav className="flex justify-center gap-3 mb-5 mobile-contact">
